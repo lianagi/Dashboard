@@ -1,0 +1,159 @@
+.store{
+    flex: 4;
+    padding: 20px;
+}
+
+.storeTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.storeAddButton{
+    width: 80px;
+    border: none;
+    padding: 5px;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.storeContainer{
+    display: flex;
+    margin-top: 20px;
+}
+
+.storeShow{
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+    box-shadow: 0px 0px 15px -10px  rgba(0, 0, 0, 0.75);
+}
+
+.storeUpdate{
+    flex: 2;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75); 
+    box-shadow: 0px 0px 15px -10px  rgba(0, 0, 0, 0.75);
+    margin-left: 20px;
+}
+
+.storeShotTop{
+    display: flex;
+    align-items: center;
+}
+
+.storeShowImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.storeShowTopTitle{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.storeShowUsername{
+    font-weight: 600;
+}
+
+.storeShowUserTitle{
+    font-weight: 300;
+}
+
+.storeShotBottom{
+    margin-top: 20px;
+}
+
+.storeUserTitle{
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(175, 170, 170);
+}
+
+.storeShowInfo{
+    display: flex;
+    align-items: center;
+    margin: 20px 0px;
+    color: #444;
+}
+
+.storeShowIcon{
+    font-size: 16px !important;
+
+}
+
+.storeShowInfoTitle{
+    margin-left: 10px;
+
+}
+
+.storeUpdateTitle{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.storeUpdateForm{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.storeUpdateItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px; 
+}
+
+.storeUpdateItem>label{
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.storeUpdateInput{
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid gray;
+}
+  
+.storeUpdateRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.storeUpdateUpload{
+    display: flex;
+    align-items: center;
+}
+
+.storeUpdateImg{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-left: 20px;
+
+}
+
+.storeUpdateIcon{
+    cursor: pointer;
+}
+
+.storeUpdateButton{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    background-color: darkblue;
+    color: white;
+    font-weight: 600;
+}
+
